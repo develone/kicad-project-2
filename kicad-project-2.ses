@@ -1,0 +1,191 @@
+(session "kicad-project-2.ses"
+  (base_design "kicad-project-2.dsn")
+  (placement
+    (resolution um 10)
+    (component "Package_DIP:DIP-40_W25.4mm_Socket_LongPads"
+      (place U1 1066900 -570700 front 0)
+    )
+    (component Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical
+      (place J2 990600 -762000 front 0)
+    )
+    (component Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical::1
+      (place J3 990600 -1117600 front 0)
+    )
+    (component "Package_DIP:DIP-10_W7.62mm"
+      (place U2 1244550 -1105000 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "6.0.11+dfsg-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J2-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1320900 -570700
+            1305630 -570700
+            1114330 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1114330 -762000
+            1114330 -790811
+            1313320 -989800
+            1328830 -989800
+            1336620 -997586
+            1336620 -1006900
+            1328320 -1015200
+            1313440 -1015200
+            1244550 -1084090
+            1244550 -1105000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            990600 -762000
+            1114330 -762000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(J2-Pad2)"
+        (wire
+          (path B.Cu 2500
+            990600 -772000
+            983081 -772000
+            983081 -811646
+            1059640 -888200
+            1074150 -888200
+            1219150 -1033200
+            1219150 -1105000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(J2-Pad3)"
+        (wire
+          (path F.Cu 2500
+            990600 -782000
+            998119 -782000
+            998119 -827121
+            1059200 -888200
+            1074260 -888200
+            1142950 -956887
+            1142950 -1105000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(J2-Pad5)"
+        (wire
+          (path B.Cu 2500
+            1320900 -1002500
+            1305630 -1002500
+            1140530 -837400
+            1033520 -837400
+            998119 -802000
+            990600 -802000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-Pad6)"
+        (wire
+          (path B.Cu 2500
+            1219150 -1181200
+            1207880 -1181200
+            1207880 -1178380
+            1147100 -1117600
+            990600 -1117600
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1066900 -697700
+            1082170 -697700
+            1206450 -821981
+            1206450 -1157230
+            1219150 -1169930
+            1219150 -1181200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-Pad10)"
+        (wire
+          (path B.Cu 2500
+            990600 -1127600
+            1078080 -1127600
+            1131680 -1181200
+            1142950 -1181200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1066900 -799300
+            1082170 -799300
+            1154810 -871945
+            1154810 -1158070
+            1142950 -1169930
+            1142950 -1181200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-Pad36)"
+        (wire
+          (path F.Cu 2500
+            1320900 -672300
+            1305630 -672300
+            1305630 -1108850
+            1244550 -1169930
+            1244550 -1181200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(J3-Pad3)"
+        (wire
+          (path F.Cu 2500
+            1066900 -1002500
+            1051630 -1002500
+            1051630 -1084090
+            998119 -1137600
+            990600 -1137600
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
